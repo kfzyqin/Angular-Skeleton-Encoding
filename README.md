@@ -1,8 +1,20 @@
-# Angular Encoding for Skeleton-Based Action Recognition
+<h1 align="center">
+    <img width="200" height="auto" src="figures/angle.png" />
+    <br>
+    Angular Encoding for Skeleton-Based Action Recognition
+    <br>
+</h1>
 
+<h3 align="center">
+Overview
+</h3>
+
+<p align="center">
+<strong align="center">
 PyTorch implementation of "Fusing Higher-Order Features in Graph Neural Networks for Skeleton-Based Action Recognition".
-
-[[PDF](https://arxiv.org/pdf/2105.01563.pdf)]
+(https://arxiv.org/pdf/2105.01563.pdf). 
+</strong>
+</p>
 
 ## Angular Features
 
@@ -66,9 +78,10 @@ This repo is based on
   - [MS-G3D](https://github.com/kenziyuliu/ms-g3d)
   - [2s-AGCN](https://github.com/lshiwjx/2s-AGCN)
   - [ST-GCN](https://github.com/yysijie/st-gcn)
-
+  
 Thanks to the original authors for their work!
 
+The flat icon is from [Freepik](https://www.freepik.com/). 
 
 ## Citation
 
