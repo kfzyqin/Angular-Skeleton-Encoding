@@ -11,7 +11,7 @@ Overview
 
 <p align="center">
 <strong align="center">
-PyTorch implementation of "Fusing Higher-Order Features in Graph Neural Networks for Skeleton-Based Action Recognition".
+PyTorch implementation of "TNNLS 2022: Fusing Higher-Order Features in Graph Neural Networks for Skeleton-Based Action Recognition".
 (https://arxiv.org/pdf/2105.01563.pdf). 
 </strong>
 </p>
@@ -91,16 +91,9 @@ Please cite this work if you find it useful:
 @article{DBLP:journals/corr/abs-2105-01563,
   author    = {Zhenyue Qin and Yang Liu and Pan Ji and Dongwoo Kim and Lei Wang and
                Bob McKay and Saeed Anwar and Tom Gedeon},
-  title     = {Leveraging Third-Order Features in Skeleton-Based Action Recognition},
-  journal   = {CoRR},
-  volume    = {abs/2105.01563},
-  year      = {2021},
-  url       = {https://arxiv.org/abs/2105.01563},
-  eprinttype = {arXiv},
-  eprint    = {2105.01563},
-  timestamp = {Wed, 12 May 2021 15:54:31 +0200},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2105-01563.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+  title     = {Fusing Higher-Order Features in Graph Neural Networks for Skeleton-based Action Recognition},
+  journal   = {IEEE Transactions on Neural Networks and Learning Systems (TNNLS)},
+  year      = {2022}
 }
 ```
 
