@@ -35,11 +35,12 @@ PyTorch implementation of "TNNLS 2022: Fusing Higher-Order Features in Graph Neu
 
 ### Download Datasets
 
-There are 2 datasets to download:
+Currently available datasets:
 - NTU RGB+D 60 Skeleton
-- NTU RGB+D 120 Skeleton
+- NTU RGB+D 120 Skeleton (used by default training configuration)
 
-Request the datasets here: http://rose1.ntu.edu.sg/Datasets/actionRecognition.asp
+Request the datasets here: https://rose1.ntu.edu.sg/dataset/actionRecognition
+
 
 ### Data Preprocessing
 
@@ -57,18 +58,22 @@ Put downloaded data into the following directory structure:
 
 #### Generating Data
 
-- `cd data_gen`
-- `python3 ntu_gendata.py`
-- `python3 ntu120_gendata.py`
-- This can take hours. Better CPUs lead to much faster processing. 
-
-## Training
+```bash
+cd data_gen
+## generate ntu120 data
+python3 ntu120_gendata.py 
+## You can aslo generate ntu60 data
+# python3 ntu_gendata.py
 ```
+This can take hours. Better CPUs lead to much faster processing. 
+
+## Training (Linux)
+```bash
 bash train.sh
 ```
 
-## Testing
-```
+## Testing (Linux)
+```bash
 bash test.sh
 ```
 
